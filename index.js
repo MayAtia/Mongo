@@ -19,7 +19,7 @@ router.get('/', (req, res) => {        //get requests to the root ("/") will rou
 
 
 //add the router
-app.use('/', router);
+app.use('/', router); 
 
 
 app.listen(port, () => {            //server starts listening for any attempts from a client to connect at port: {port}
